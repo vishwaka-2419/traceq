@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "batches": 248,
+  "raw_realizations": 86280,
+  "summary_fields_recomputed": 3472,
+  "row_checks": [
+    "realization/seed ordering",
+    "state conservation",
+    "runtime equals floor plus stall"
+  ],
+  "validation_bounds_recomputed": 8
+}

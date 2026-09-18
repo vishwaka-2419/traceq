@@ -1,0 +1,50 @@
+[
+  {
+    "mapping": "JW",
+    "K": 19,
+    "B": 4,
+    "screen_id": "capacity_JW_19"
+  },
+  {
+    "mapping": "JW",
+    "K": 19,
+    "B": 8,
+    "screen_id": "grid_JW_19_8"
+  },
+  {
+    "mapping": "JW",
+    "K": 18,
+    "B": 16,
+    "screen_id": "grid_JW_18_16"
+  },
+  {
+    "mapping": "JW",
+    "K": 17,
+    "B": 32,
+    "screen_id": "grid_JW_17_32"
+  },
+  {
+    "mapping": "TT",
+    "K": 17,
+    "B": 4,
+    "screen_id": "capacity_TT_17"
+  },
+  {
+    "mapping": "TT",
+    "K": 17,
+    "B": 8,
+    "screen_id": "grid_TT_17_8"
+  },
+  {
+    "mapping": "TT",
+    "K": 16,
+    "B": 16,
+    "screen_id": "grid_TT_16_16"
+  },
+  {
+    "mapping": "TT",
+    "K": 15,
+    "B": 32,
+    "screen_id": "grid_TT_15_32"
+  }
+]

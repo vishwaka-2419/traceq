@@ -1,0 +1,2986 @@
+{
+  "status": "PASS",
+  "batches": 248,
+  "replayed_realizations": 496,
+  "paired_fields_compared": 7440,
+  "selection": "First and last stored realization in every batch; fixed deterministic selection.",
+  "runtime_seconds": 13.61218577599999,
+  "checks": [
+    {
+      "experiment": "baseline_JW",
+      "run": 0,
+      "seed": 1000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "baseline_JW",
+      "run": 4095,
+      "seed": 1004095,
+      "status": "PASS"
+    },
+    {
+      "experiment": "baseline_TT",
+      "run": 0,
+      "seed": 1000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "baseline_TT",
+      "run": 4095,
+      "seed": 1004095,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_6",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_6",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_7",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_7",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_8",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_8",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_9",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_9",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_10",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_10",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_11",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_11",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_12",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_12",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_13",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_13",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_14",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_14",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_15",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_15",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_16",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_16",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_17",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_17",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_18",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_18",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_19",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_19",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_20",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_20",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_21",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_21",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_22",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_22",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_23",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_23",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_24",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_JW_24",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_6",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_6",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_7",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_7",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_8",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_8",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_9",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_9",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_10",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_10",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_11",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_11",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_12",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_12",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_13",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_13",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_14",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_14",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_15",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_15",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_16",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_16",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_17",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_17",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_18",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_18",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_19",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_19",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_20",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_20",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_21",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_21",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_22",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_22",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_23",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_23",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_24",
+      "run": 0,
+      "seed": 2000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "capacity_TT_24",
+      "run": 511,
+      "seed": 2000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_compiled",
+      "run": 0,
+      "seed": 3000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_compiled",
+      "run": 1023,
+      "seed": 3001023,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_shuffled",
+      "run": 0,
+      "seed": 3000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_shuffled",
+      "run": 1023,
+      "seed": 3001023,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_interleaved",
+      "run": 0,
+      "seed": 3000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_interleaved",
+      "run": 1023,
+      "seed": 3001023,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_clustered",
+      "run": 0,
+      "seed": 3000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "order_clustered",
+      "run": 1023,
+      "seed": 3001023,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_0",
+      "run": 0,
+      "seed": 3100000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_0",
+      "run": 63,
+      "seed": 3100063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_1",
+      "run": 0,
+      "seed": 3101000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_1",
+      "run": 63,
+      "seed": 3101063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_2",
+      "run": 0,
+      "seed": 3102000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_2",
+      "run": 63,
+      "seed": 3102063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_3",
+      "run": 0,
+      "seed": 3103000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_3",
+      "run": 63,
+      "seed": 3103063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_4",
+      "run": 0,
+      "seed": 3104000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_4",
+      "run": 63,
+      "seed": 3104063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_5",
+      "run": 0,
+      "seed": 3105000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_5",
+      "run": 63,
+      "seed": 3105063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_6",
+      "run": 0,
+      "seed": 3106000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_6",
+      "run": 63,
+      "seed": 3106063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_7",
+      "run": 0,
+      "seed": 3107000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_7",
+      "run": 63,
+      "seed": 3107063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_8",
+      "run": 0,
+      "seed": 3108000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_8",
+      "run": 63,
+      "seed": 3108063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_9",
+      "run": 0,
+      "seed": 3109000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_9",
+      "run": 63,
+      "seed": 3109063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_10",
+      "run": 0,
+      "seed": 3110000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_10",
+      "run": 63,
+      "seed": 3110063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_11",
+      "run": 0,
+      "seed": 3111000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_11",
+      "run": 63,
+      "seed": 3111063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_12",
+      "run": 0,
+      "seed": 3112000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_12",
+      "run": 63,
+      "seed": 3112063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_13",
+      "run": 0,
+      "seed": 3113000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_13",
+      "run": 63,
+      "seed": 3113063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_14",
+      "run": 0,
+      "seed": 3114000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_14",
+      "run": 63,
+      "seed": 3114063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_15",
+      "run": 0,
+      "seed": 3115000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_15",
+      "run": 63,
+      "seed": 3115063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_16",
+      "run": 0,
+      "seed": 3116000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_16",
+      "run": 63,
+      "seed": 3116063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_17",
+      "run": 0,
+      "seed": 3117000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_17",
+      "run": 63,
+      "seed": 3117063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_18",
+      "run": 0,
+      "seed": 3118000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_18",
+      "run": 63,
+      "seed": 3118063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_19",
+      "run": 0,
+      "seed": 3119000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_19",
+      "run": 63,
+      "seed": 3119063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_20",
+      "run": 0,
+      "seed": 3120000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_20",
+      "run": 63,
+      "seed": 3120063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_21",
+      "run": 0,
+      "seed": 3121000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_21",
+      "run": 63,
+      "seed": 3121063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_22",
+      "run": 0,
+      "seed": 3122000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_22",
+      "run": 63,
+      "seed": 3122063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_23",
+      "run": 0,
+      "seed": 3123000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_23",
+      "run": 63,
+      "seed": 3123063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_24",
+      "run": 0,
+      "seed": 3124000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_24",
+      "run": 63,
+      "seed": 3124063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_25",
+      "run": 0,
+      "seed": 3125000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_25",
+      "run": 63,
+      "seed": 3125063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_26",
+      "run": 0,
+      "seed": 3126000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_26",
+      "run": 63,
+      "seed": 3126063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_27",
+      "run": 0,
+      "seed": 3127000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_27",
+      "run": 63,
+      "seed": 3127063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_28",
+      "run": 0,
+      "seed": 3128000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_28",
+      "run": 63,
+      "seed": 3128063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_29",
+      "run": 0,
+      "seed": 3129000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_29",
+      "run": 63,
+      "seed": 3129063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_30",
+      "run": 0,
+      "seed": 3130000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_30",
+      "run": 63,
+      "seed": 3130063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_31",
+      "run": 0,
+      "seed": 3131000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "shuffle_ensemble_31",
+      "run": 63,
+      "seed": 3131063,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_4",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_4",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_8",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_8",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_12",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_12",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_16",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_16",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_24",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_24",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_32",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_32",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_64",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_JW_64",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.04",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.04",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.08",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.08",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.12",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.12",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.2",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.2",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.35",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.35",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.5",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.5",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.75",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.75",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.9",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_JW_0.9",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_deterministic",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_deterministic",
+      "run": 1,
+      "seed": 6000001,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_two_point",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_two_point",
+      "run": 511,
+      "seed": 6000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_geometric",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_geometric",
+      "run": 511,
+      "seed": 6000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_staggered",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_staggered",
+      "run": 1,
+      "seed": 6000001,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_common_slowdown",
+      "run": 0,
+      "seed": 6100000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_JW_common_slowdown",
+      "run": 511,
+      "seed": 6100511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_1",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_1",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_2",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_2",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_4",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_4",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_8",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_JW_8",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "cold_JW",
+      "run": 0,
+      "seed": 7100000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "cold_JW",
+      "run": 511,
+      "seed": 7100511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_4",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_4",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_8",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_8",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_12",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_12",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_16",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_16",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_24",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_24",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_32",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_32",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_64",
+      "run": 0,
+      "seed": 4000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "buffer_TT_64",
+      "run": 511,
+      "seed": 4000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.04",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.04",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.08",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.08",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.12",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.12",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.2",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.2",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.35",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.35",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.5",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.5",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.75",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.75",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.9",
+      "run": 0,
+      "seed": 5000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "acceptance_TT_0.9",
+      "run": 511,
+      "seed": 5000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_deterministic",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_deterministic",
+      "run": 1,
+      "seed": 6000001,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_two_point",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_two_point",
+      "run": 511,
+      "seed": 6000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_geometric",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_geometric",
+      "run": 511,
+      "seed": 6000511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_staggered",
+      "run": 0,
+      "seed": 6000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_staggered",
+      "run": 1,
+      "seed": 6000001,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_common_slowdown",
+      "run": 0,
+      "seed": 6100000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "law_TT_common_slowdown",
+      "run": 511,
+      "seed": 6100511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_1",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_1",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_2",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_2",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_4",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_4",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_8",
+      "run": 0,
+      "seed": 7000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "repeated_TT_8",
+      "run": 255,
+      "seed": 7000255,
+      "status": "PASS"
+    },
+    {
+      "experiment": "cold_TT",
+      "run": 0,
+      "seed": 7100000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "cold_TT",
+      "run": 511,
+      "seed": 7100511,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_6_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_7_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_8_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_9_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_10_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_11_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_12_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_13_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_14_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_15_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_16_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_17_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_18_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_19_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_20_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_21_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_22_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_23_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_JW_24_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_8",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_8",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_16",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_16",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_6_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_7_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_8_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_9_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_10_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_11_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_12_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_13_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_14_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_15_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_16_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_17_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_18_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_19_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_20_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_21_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_22_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_23_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_32",
+      "run": 0,
+      "seed": 8000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "grid_TT_24_32",
+      "run": 127,
+      "seed": 8000127,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_19_4",
+      "run": 0,
+      "seed": 9000000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_19_4",
+      "run": 2047,
+      "seed": 9002047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_19_8",
+      "run": 0,
+      "seed": 9010000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_19_8",
+      "run": 2047,
+      "seed": 9012047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_18_16",
+      "run": 0,
+      "seed": 9020000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_18_16",
+      "run": 2047,
+      "seed": 9022047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_17_32",
+      "run": 0,
+      "seed": 9030000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_JW_17_32",
+      "run": 2047,
+      "seed": 9032047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_17_4",
+      "run": 0,
+      "seed": 9040000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_17_4",
+      "run": 2047,
+      "seed": 9042047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_17_8",
+      "run": 0,
+      "seed": 9050000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_17_8",
+      "run": 2047,
+      "seed": 9052047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_16_16",
+      "run": 0,
+      "seed": 9060000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_16_16",
+      "run": 2047,
+      "seed": 9062047,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_15_32",
+      "run": 0,
+      "seed": 9070000,
+      "status": "PASS"
+    },
+    {
+      "experiment": "validation_TT_15_32",
+      "run": 2047,
+      "seed": 9072047,
+      "status": "PASS"
+    }
+  ]
+}

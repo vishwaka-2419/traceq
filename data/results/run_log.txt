@@ -1,0 +1,21 @@
+baseline JW 19.973016964967183
+baseline TT 14.895891164719966
+capacity JW done 86.5
+capacity TT done 137.2
+order compiled 14.891088483627147
+order shuffled 5.226284849877461
+order interleaved 4.192372643690634
+order clustered 15.496518431591388
+sensitivity JW done 209.4
+sensitivity TT done 257.0
+screen JW done 298.0
+screen TT done 332.0
+validation JW 19 4 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.016628288094906116, 'certified': True, 'screen_id': 'capacity_JW_19'}
+validation JW 19 8 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.0024750442291897544, 'certified': True, 'screen_id': 'grid_JW_19_8'}
+validation JW 18 16 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.004385297715096555, 'certified': True, 'screen_id': 'grid_JW_18_16'}
+validation JW 17 32 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.0024750442291897544, 'certified': True, 'screen_id': 'grid_JW_17_32'}
+validation TT 17 4 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.004385297715096555, 'certified': True, 'screen_id': 'capacity_TT_17'}
+validation TT 17 8 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.0024750442291897544, 'certified': True, 'screen_id': 'grid_TT_17_8'}
+validation TT 16 16 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.003498836715834498, 'certified': True, 'screen_id': 'grid_TT_16_16'}
+validation TT 15 32 {'family_size': 8, 'confidence_family': 0.95, 'violation_ucb_family': 0.0024750442291897544, 'certified': True, 'screen_id': 'grid_TT_15_32'}
+DONE 248 design batches; seconds 433.3
