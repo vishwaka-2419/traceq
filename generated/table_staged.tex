@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{l>{\raggedright\arraybackslash}p{0.27\linewidth}rrrrrr}
+\toprule
+Map. & Stages (cycles, acceptance) & $\mu$ & CV & $K_{\rm avg}$ & Excess & 95\% CI & Closed\\\midrule
+JW & (9, 0.08) & 112.50 & 96 & 10 & 19.97 & [19.92, 20.03] & 19.64\\
+JW & (2, 0.1), (7, 0.8) & 33.75 & 77 & 3 & 20.04 & [20.00, 20.09] & 19.70\\
+JW & (1, 0.5), (3, 0.2), (5, 0.8) & 37.50 & 81 & 4 & 11.08 & [11.05, 11.11] & 10.07\\
+JW & (1, 0.5), (3, 0.2), (5, 0.8); reset 3 & 72.00 & 92 & 7 & 15.35 & [15.31, 15.39] & 14.85\\
+TT & (9, 0.08) & 112.50 & 96 & 11 & 14.93 & [14.88, 14.99] & 14.14\\
+TT & (2, 0.1), (7, 0.8) & 33.75 & 77 & 4 & 6.02 & [5.99, 6.05] & 3.74\\
+TT & (1, 0.5), (3, 0.2), (5, 0.8) & 37.50 & 81 & 4 & 10.34 & [10.30, 10.38] & 8.90\\
+TT & (1, 0.5), (3, 0.2), (5, 0.8); reset 3 & 72.00 & 92 & 7 & 15.31 & [15.26, 15.36] & 14.57\\
+\bottomrule
+\end{tabular}
+\caption{Stage-resolved service laws with end-to-end acceptance $0.08$ and a nine-cycle successful attempt; latency CV, excess and closed form in per cent. A failed stage restarts the attempt. $K_{\rm avg}$ is recomputed from the mean latency $\mu$ of each law; 512 realisations per row; $B=4$. These are declared scenarios and not calibrated protocols.}
+\label{tab:staged}
+\end{table}

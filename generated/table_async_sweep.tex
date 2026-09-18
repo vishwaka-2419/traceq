@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{lrrrrrrr}
+\toprule
+Mapping & $K$ & $n$ & Lockstep & Within groups & Difference & Dynamic & Difference\\\midrule
+JW & 8 & 128 & 8.60 & 8.60 & $+0.00\pm0.01$ & 9.58 & $+0.98\pm0.04$\\
+JW & 10 & 256 & 19.94 & 19.90 & $-0.04\pm0.01$ & 22.07 & $+2.13\pm0.03$\\
+JW & 12 & 128 & 11.03 & 10.96 & $-0.07\pm0.01$ & 13.93 & $+2.90\pm0.04$\\
+JW & 14 & 128 & 5.96 & 5.93 & $-0.03\pm0.01$ & 9.61 & $+3.66\pm0.05$\\
+JW & 18 & 128 & 2.08 & 2.05 & $-0.02\pm0.01$ & 7.29 & $+5.21\pm0.03$\\
+TT & 8 & 128 & 6.68 & 6.66 & $-0.02\pm0.01$ & 6.49 & $-0.19\pm0.04$\\
+TT & 11 & 256 & 14.93 & 14.85 & $-0.07\pm0.01$ & 14.22 & $-0.70\pm0.05$\\
+TT & 13 & 128 & 6.91 & 6.84 & $-0.07\pm0.02$ & 6.18 & $-0.73\pm0.07$\\
+TT & 15 & 128 & 3.10 & 3.09 & $-0.01\pm0.01$ & 2.07 & $-1.04\pm0.09$\\
+TT & 19 & 128 & 0.63 & 0.59 & $-0.04\pm0.01$ & -0.43 & $-1.06\pm0.06$\\
+\bottomrule
+\end{tabular}
+\caption{Asynchronous progress across production counts ($B=4$, geometric service, excess over $T_{\rm rate}$ in per cent, paired differences to lockstep in percentage points). A negative excess under dynamic admission means that the dynamic schedule finishes before the supply-unconstrained time of the static schedule.}
+\label{tab:asyncsweep}
+\end{table}

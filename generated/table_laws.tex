@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{llrrrr}
+\toprule
+Mapping & Service law and initial phase & $n$ & Excess (\%) & $T_{95}/T_0$ & CV (\%)\\\midrule
+JW & Independent geometric & 512 & 19.99 & 1.2111 & 0.554\\
+JW & Fixed, aligned & 2 & 19.64 & 1.1964 & 0.000\\
+JW & Fixed, staggered & 2 & 19.61 & 1.1961 & 0.000\\
+JW & Independent two-point & 512 & 20.45 & 1.2149 & 0.504\\
+JW & Run-common slowdown & 512 & 24.16 & 2.0060 & 28.652\\
+TT & Independent geometric & 512 & 14.88 & 1.1587 & 0.547\\
+TT & Fixed, aligned & 2 & 14.14 & 1.1414 & 0.000\\
+TT & Fixed, staggered & 2 & 14.10 & 1.1410 & 0.000\\
+TT & Independent two-point & 512 & 15.54 & 1.1640 & 0.475\\
+TT & Run-common slowdown & 512 & 19.36 & 1.9076 & 27.852\\
+\bottomrule
+\end{tabular}
+\caption{Controls with the same nominal mean latency at each mapping's balance count and $B=4$. Fixed-service rows are deterministic and agree with the closed form to machine precision. The common-environment model is a synthetic correlation stress test and is not used for the provisioning certificates.}
+\label{tab:laws}
+\end{table}

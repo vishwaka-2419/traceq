@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{llrrrrr}
+\toprule
+Mapping & Initial storage & Segments & $n$ & Excess (\%) & Closed form (\%) & CV (\%)\\\midrule
+JW & Prefilled & 1 & 4096 & 19.97 & 19.64 & 0.535\\
+JW & Cold & 1 & 512 & 19.98 & 19.69 & 0.570\\
+JW & Prefilled & 8 & 256 & 19.97 & 19.61 & 0.193\\
+TT & Prefilled & 1 & 4096 & 14.90 & 14.14 & 0.542\\
+TT & Cold & 1 & 512 & 14.86 & 14.19 & 0.544\\
+TT & Prefilled & 8 & 256 & 14.89 & 14.11 & 0.179\\
+\bottomrule
+\end{tabular}
+\caption{Start-up and repetition controls. One prefill is used per concatenated run. Batches have independent seeds, so comparisons are not paired confidence intervals.}
+\label{tab:startup}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+Order & Excess (\%) & 95\% mean CI & Closed form (\%) & CV (\%) & $\mathcal E_{K/\mu}$\\\midrule
+Shuffled & 5.23 & [5.20, 5.25] & 0.95 & 0.418 & 19.1\\
+Interleaved & 4.19 & [4.17, 4.22] & 0.05 & 0.401 & 3.3\\
+Compiled & 14.89 & [14.85, 14.93] & 14.14 & 0.532 & 450.9\\
+Clustered & 15.50 & [15.46, 15.53] & 14.82 & 0.521 & 1904.5\\
+\bottomrule
+\end{tabular}
+\caption{Identical-histogram TT orderings at $K=11$, $B=4$, with 1,024 realisations each. The closed form is the exact deterministic runtime; $\mathcal E_{K/\mu}$ is the largest interval excursion of \eqref{eq:excursion}, in state units.}
+\label{tab:order}
+\end{table}

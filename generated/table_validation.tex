@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Mapping & $(K,B)$ & $K_{\rm cf}$ & $K+B$ & Misses/$n$ & Upper bound (\%) & $T_{95}/T_0$ & Pass\\\midrule
+JW & (19, 4) & 19 & 23 & 20/2048 & 1.663 & 1.0188 & Yes\\
+JW & (19, 8) & 18 & 27 & 0/2048 & 0.248 & 1.0164 & Yes\\
+JW & (18, 16) & 18 & 34 & 2/2048 & 0.439 & 1.0174 & Yes\\
+JW & (17, 32) & 16 & 49 & 0/2048 & 0.248 & 1.0159 & Yes\\
+TT & (17, 4) & 16 & 21 & 2/2048 & 0.439 & 1.0173 & Yes\\
+TT & (17, 8) & 16 & 25 & 0/2048 & 0.248 & 1.0143 & Yes\\
+TT & (16, 16) & 15 & 32 & 1/2048 & 0.350 & 1.0166 & Yes\\
+TT & (15, 32) & 14 & 47 & 0/2048 & 0.248 & 1.0159 & Yes\\
+\bottomrule
+\end{tabular}
+\caption{Held-out validation of eight preselected candidates. $K_{\rm cf}$ is the smallest count whose closed-form deterministic runtime is at most $1.02T_0$ at that $B$. Upper bounds have simultaneous coverage of at least 95\% across this family; a pass requires an upper bound of at most 5\% for missing $1.02T_0$. Each bound is conditional on the stated model and is not a physical-device guarantee.}
+\label{tab:validation}
+\end{table}

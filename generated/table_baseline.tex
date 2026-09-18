@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Mapping & $K_{\rm avg}$ & Excess (\%) & 95\% mean CI & Closed form (\%) & CV (\%) & $T_{95}/T_0$ & $K_{\rm mean}$\\\midrule
+JW & 10 & 19.97 & [19.95, 19.99] & 19.64 & 0.535 & 1.2104 & 19\\
+TT & 11 & 14.90 & [14.88, 14.91] & 14.14 & 0.542 & 1.1594 & 17\\
+\bottomrule
+\end{tabular}
+\caption{Balance-point results, 4,096 realisations per mapping. Excess and its interval are percentage points above $T_{\rm rate}=T_0$. The closed form is the exact deterministic runtime of \cref{thm:maxplus}. The last column is the smallest tested integer count with empirical mean runtime at most $1.02T_0$, from the separate 512-run capacity sweep.}
+\label{tab:baseline}
+\end{table}

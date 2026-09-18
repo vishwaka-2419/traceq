@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{lllrrrr}
+\toprule
+$(w,c,r)$ & Holding rule & Injection & $I_{\max}$ & $T_{\rm spread}$ & $T_{\rm cluster}$ & Bound\\\midrule
+(4, 2, 16) & Blocking after service & Atomic & 5 & 128 & 161 & 160\\
+ & Blocking after service & Incremental & 5 & 128 & 161 & 160\\
+ & Reservation before service & Atomic & 4 & 128 & 176 & 176\\
+ & Reservation before service & Incremental & 4 & 128 & 176 & 176\\
+ & Discard on full & Atomic & 5 & 128 & 176 & 160\\
+ & Discard on full & Incremental & 5 & 128 & 176 & 160\\
+(4, 8, 16) & Blocking after service & Atomic & 5 & 512 & 833 & 832\\
+ & Blocking after service & Incremental & 5 & 512 & 833 & 832\\
+ & Reservation before service & Atomic & 4 & 512 & 848 & 848\\
+ & Reservation before service & Incremental & 4 & 512 & 848 & 848\\
+ & Discard on full & Atomic & 5 & 512 & 848 & 832\\
+ & Discard on full & Incremental & 5 & 512 & 848 & 832\\
+\bottomrule
+\end{tabular}
+\caption{Runtimes of the equal-histogram pair of Theorem~\ref{M-thm:order} of the main text under six combinations of holding and injection rules ($K=1$, $B=w$, unit latency and step time), with the policy-independent lower bound of Theorem~\ref{M-thm:policy} evaluated at each rule's inventory cap.}
+\label{tab:policies}
+\end{table}

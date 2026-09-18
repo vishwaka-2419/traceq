@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{llrrrr}
+\toprule
+Map. & Progress rule & Excess (\%) & 95\% CI & Diff. (pp) & Fixed $\mu$ (\%)\\\midrule
+JW & Lockstep (main model) & 19.94 & [19.86, 20.01] & -- & 19.64\\
+ & Asynchronous in groups & 19.90 & [19.82, 19.97] & $-0.04\pm0.01$ & 19.65\\
+ & Dynamic admission & 22.07 & [21.99, 22.14] & $+2.13\pm0.03$ & 21.76\\
+TT & Lockstep (main model) & 14.93 & [14.85, 15.00] & -- & 14.14\\
+ & Asynchronous in groups & 14.85 & [14.78, 14.93] & $-0.07\pm0.01$ & 15.77\\
+ & Dynamic admission & 14.22 & [14.12, 14.33] & $-0.70\pm0.05$ & 8.97\\
+\bottomrule
+\end{tabular}
+\caption{Lockstep against asynchronous progress (within the groups of the static schedule, and fully asynchronous with dynamic admission) at mean-rate balance and $B=4$, 256 realisations per row with common random numbers across the three rules. The difference is the paired mean difference to lockstep with its standard error. The last column is a single run with fixed latency $\mu$; for the asynchronous rules it depends on the production phase and is shown for completeness.}
+\label{tab:async}
+\end{table}

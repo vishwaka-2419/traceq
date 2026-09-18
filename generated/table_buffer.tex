@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{rrrrrr}
+\toprule
+$B$ & $K+B$ & Excess (\%) & Closed form (\%) & Residency (cycles) & Blocked (\%)\\\midrule
+4 & 15 & 14.87 & 14.14 & 56.8 & 17.71\\
+8 & 19 & 13.77 & 13.48 & 80.4 & 16.92\\
+12 & 23 & 13.09 & 12.86 & 103.5 & 16.42\\
+16 & 27 & 12.48 & 12.33 & 126.9 & 15.96\\
+24 & 35 & 11.38 & 11.05 & 174.7 & 15.13\\
+32 & 43 & 10.43 & 10.22 & 224.6 & 14.41\\
+64 & 75 & 7.93 & 7.88 & 431.1 & 12.42\\
+\bottomrule
+\end{tabular}
+\caption{TT storage sweep at $K=11$, with 512 realisations per point. Residency is the mean over consumed states and includes holding at blocked producers; the last column is the blocked share of producer patch-time. Prefilled states have zero recorded age within the timed window.}
+\label{tab:buffer}
+\end{table}

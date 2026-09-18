@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{p{0.43\linewidth}rrrrr}
+\toprule
+Batches & $n$ & Median & 90th pct. & Max & Mean signed\\\midrule
+Compiled and clustered orders & 206 & 0.19 & 0.87 & 2.62 & -0.35\\
+\quad of which closed-form excess $\ge5\%$ & 83 & 0.33 & 0.84 & 2.18 & -0.46\\
+Shuffled and interleaved orders & 34 & 4.26 & 4.37 & 4.47 & -4.26\\
+\bottomrule
+\end{tabular}
+\caption{Absolute difference, in percentage points of $T_{\rm rate}$, between the exact deterministic runtime of \cref{thm:maxplus} and the simulated mean under geometric service, over all 240 stored geometric-service batches. The signed column is closed form minus simulation.}
+\label{tab:predictor}
+\end{table}
