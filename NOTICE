@@ -1,0 +1,11 @@
+traceq
+Copyright (c) 2026 Aishwarya Vishwakarma
+
+This repository redistributes third-party material:
+
+data/external/barc/
+    Demand traces from the BARC artifact, https://github.com/C2-Q/BARC,
+    commit 5c4421c82bcccc646ee7c79e76f983d76461d1ee, by B. Ye, A. A. Khan and P. Liang,
+    licensed under the Apache License, Version 2.0 (copy in data/external/barc/LICENSE-APACHE-2.0.txt).
+    Changes: the step index was dropped and the demand column was re-encoded as one unsigned byte per
+    step with xz compression. No demand value was changed.

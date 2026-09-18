@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "traceq: trace-aware finite-buffer magic-state provisioning"
+type: software
+version: 0.3.0
+license: MIT
+repository-code: "https://github.com/AUTHOR-ACCOUNT/traceq"
+authors:
+  - family-names: Vishwakarma
+    given-names: Aishwarya
+    affiliation: "Department of Quantum Matter Physics, University of Geneva"
+    email: Aishwarya.Vishwakarma@unige.ch
+preferred-citation:
+  type: article
+  title: "Beyond Mean Factory Rate: Trace-Aware Provisioning for Magic-State Cultivation"
+  authors:
+    - family-names: Vishwakarma
+      given-names: Aishwarya
+  year: 2026
+  notes: "Add the journal reference or arXiv identifier once available."
