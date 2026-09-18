@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+data/smoke/
+data/results/_robustness_parts/
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
